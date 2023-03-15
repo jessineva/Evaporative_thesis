@@ -59,29 +59,62 @@ This project study and aim to simulate the evaporative cooling process that take
  }
 \end{figure}
 
+Experiments and measurements made to study evaporative cooling effect were carried out in the IER´s cafeteria in Temixco, Morelos. It corresponds the second of four stories of a rectangular building which principal façade is oriented to the east, facing Quetzalcoatl place, with an 6° angle deflected clockwise. 
 
 
-The zone where this effect is been studying is the cafeteria area of the IER. It corresponds the second floor of a building north-south oriented. 
+The cafeteria it’s a space of constant traffic of people. Although kitchen has a schedule of 9 am to 5 pm, it is used to be people sitting there all day. However, the most crowed hours are 2-4 pm which correspond mealtime for the most people in the institute. While the number of people tends to vary according to the time and day, the human activity carried out in this space does not involve a higher charge of energy than that of people seated. Of course, this is true without involving kitchen activities.
+
+The cafeteria is a space with 8.65 x 10 square meters of area and 3.5 meters high, without taking account the kitchen area.  The space that is described as a cafeteria is a semi-open space. It has a wall that points to the south, the half separation of the kitchen to the north, a wall with latticework to the west and the part to the east, in front of the Quetzalcoatl square, is open.
+
+\begin{figure}
+\centering
+\begin{subfigure}[b]{0.45\linewidth}
+\includegraphics[scale=0.44]{cafeteriaSketch_arriba_dimesiones.PNG}
+\caption{Upper view}
+\label{fig:Upper view}
+\end{subfigure}
+\begin{subfigure}[b]{0.45\linewidth}
+\includegraphics[scale=0.3]{cafeteria_alto_dimesiones.PNG}
+\caption{Side view}
+\label{fig:Side view}
+\end{subfigure}
+\caption{Cafeteria dimensions}
+\label{fig:Cafeteria dimensions}
+\end{figure}
+
+
+The lattice on the west wall is made up of 264 openings (12x22). The size of each opening is 15x22 cm.
 
 \begin{figure}
  \centering
- \includegraphics[scale=1]{cafeteria3D}
- \caption{	
- IER cafeteria
- \label{fig:3D}
+ \includegraphics[scale=0.5]{cafeteria_celosia.PNG}
+ \caption{West wall
+ \label{fig:lattice}
  }
 \end{figure}
+
+
+
+
+%Construcción details, materiales, etc
+
+The evaporative cooling in the cafeteria is carried out by an air conditioning system consisting of 30 brass nozzles installed in a nylon pipe circuit. They are installed to the east and west of the cafeteria, at the entrance and next to the lattice. In each part there are 15 nozzles installed at a height of 3.3 m. This system is divided in four subsystems:
+
+\begin{itemize}
+\item Filtration system: filters polluting particles from the water and measures water consumption.
+\item Nebulization system: it is responsible for the dew drops through a control system that maintains the circulation of water at 6,895 KPa and a flow rate of 1.89 L/min.
+\item Thermocouple system: measures the temperature at certain points in the cafeteria
+\item Control system: controls the electric valves that allow the circulation of water.
+The data acquisition from the sensors is carried out by the thingsboard platform. To carry out the measurements there are three types of sensors: anemometers, thermocouples type T and humidity sensors.
+\end{itemize}
 
 \begin{figure}
  \centering
- \includegraphics[scale=0.5]{cafeteria_sensores}
- \caption{	
- IER cafeteria
- \label{fig:sensores}
+ \includegraphics[scale=0.5]{cafeteria_sensores_sketch.PNG}
+ \caption{Sensors location
+ \label{fig:sensors}
  }
 \end{figure}
-
-
 
 
 
